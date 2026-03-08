@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# ChromaDB
+chroma_db/
+chroma_db_test/
+
+# Index Files
+bm25_index.pkl
+.md5_cache.json
+
+# Models
+models/
+
+# Config (users should create their own)
+repos_config.json
+weight_rules.json
+
+# Logs
+*.log
+/tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+.env
+.env.*

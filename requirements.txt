@@ -1,0 +1,29 @@
+# RAG Memory System Dependencies
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+httpx>=0.25.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# Embeddings
+ollama>=0.1.0
+
+# Text Splitting
+langchain-text-splitters>=0.0.1
+
+# BM25
+rank-bm25>=0.2.2
+jieba>=0.42.1
+
+# Reranker
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# File Watching (optional)
+watchdog>=3.0.0
+
+# Progress Bar
+tqdm>=4.66.0

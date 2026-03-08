@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "核心文档/人物画像": {
+      "weight": 1.0,
+      "description": "核心画像 - 最高优先级"
+    },
+    "核心文档/重要决策": {
+      "weight": 0.9,
+      "description": "重要决策记录"
+    },
+    "工作文档": {
+      "weight": 0.7,
+      "description": "工作相关文档"
+    },
+    "学习笔记": {
+      "weight": 0.5,
+      "description": "学习笔记 - 默认权重"
+    },
+    "聊天记录/原始": {
+      "weight": 0.1,
+      "description": "原始聊天记录 - 低权重"
+    },
+    "聊天记录/垃圾": {
+      "weight": 0.05,
+      "description": "垃圾信息 - 最低权重"
+    }
+  },
+  "default_weight": 0.5
+}
